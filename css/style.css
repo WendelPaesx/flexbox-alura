@@ -156,10 +156,25 @@ display: flex;
 	background: #F2F5F7;
 	padding: 20px 0;
 }
+.rodapePrincipal .container{
+   display: flex;
+   justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 50%;
+   
+
+}
 
 .rodapePrincipal-contatoForm {
 	margin-top: 20px;
 	text-align: center;
+}
+.rodapePrincipal-contatoForm-fieldset{
+   display: flex;
 }
 
 .rodapePrincipal-contatoForm label[for=email-contato] {
@@ -269,7 +284,6 @@ display: flex;
 		margin-top: 0;
 		text-align: left;
 	}
-   .rodapePrincipal-patrocinadores >
    
 
 	.conteudoPrincipal-cursos-link:nth-child(3n) {
